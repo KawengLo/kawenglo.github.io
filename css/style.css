@@ -8,6 +8,85 @@
 @import 'jquery.pagepiling.css';
 @import 'owl.carousel.css';
 
+
+/*---------newly added css 2024/12/17----------*/
+
+.landing-title{
+    font-family: 'Optima';
+    font-size: 1.8rem;
+    line-height: 38px;
+    font-weight: 200;
+}
+
+.project-category {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.project-number {
+    position: absolute;
+    left: -2rem;
+    top: 1rem;
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    .responsive-landingbg{
+        background-image: url('../images/bg/main.png') !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .view-all, .project-row {
+        padding-left: 15%
+    }
+
+    .project-title {
+        font-size: 3rem
+    }
+
+    .project-row a:after, .project-row a.active:after {
+        top: 3rem
+    }
+
+    .project-number {
+        top: 1.7rem
+    }
+
+}
+
+
+
+
+/*---------newly added css 2024/12/17----------*/
+
+
+/*------ text color library ------*/
+
+.text-muted {
+    color: #999 !important
+}
+
+.text-white {
+    color: #E6E6E6
+}
+
+.text-primary {
+    color: #D5413A !important
+}
+
+.text-secwhite{
+    color: #D9D9D9
+}
+
+.text-prigray{
+    color: #2B2E31
+}
+
+/*------ text color library ------*/
+
+
 html {
     font-size: 12px;
     -webkit-font-smoothing: antialiased
@@ -367,17 +446,7 @@ label.error {
     }
 }
 
-.text-muted {
-    color: #999 !important
-}
 
-.text-white {
-    color: #fff
-}
-
-.text-primary {
-    color: #D5413A !important
-}
 
 .masked {
     position: relative
@@ -1258,12 +1327,7 @@ a.brand:hover, a.brand:focus {
     margin-bottom: 0
 }
 
-.project-number {
-    position: absolute;
-    left: 0;
-    top: 1rem;
-    font-size: 1rem
-}
+
 
 .project-row a {
     display: block;
@@ -1453,10 +1517,6 @@ u:hover {
     margin: 0
 }
 
-.project-category {
-    font-size: 1rem;
-    font-weight: lighter;
-}
 
 .view-all {
     position: relative;
@@ -1486,23 +1546,7 @@ u:hover {
     text-decoration: none
 }
 
-@media (min-width: 768px) {
-    .view-all, .project-row {
-        padding-left: 15%
-    }
 
-    .project-title {
-        font-size: 3rem
-    }
-
-    .project-row a:after, .project-row a.active:after {
-        top: 3rem
-    }
-
-    .project-number {
-        top: 1.7rem
-    }
-}
 
 .row-partners {
     margin: 0 -5rem
